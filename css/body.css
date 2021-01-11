@@ -1,0 +1,30 @@
+/*
+ * BODY
+ */
+
+body {
+    background-color: #2c3e50 !important;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'OswaldNav';
+    src: url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}

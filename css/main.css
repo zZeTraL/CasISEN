@@ -1,0 +1,152 @@
+/*
+ * MAIN
+ */
+
+.container {
+    width: 90%;
+    max-width: 1250px;
+    margin: 75px auto 75px auto;
+}
+
+main h1 {
+    color: white;
+    font-size: 2.8rem;
+    font-family: "RobotoRegular", sans-serif;
+    padding: 20px 0 20px 0;
+    margin: 0;
+}
+
+main h3 {
+    color: white;
+    font-size: 1.6rem;
+    font-family: "RobotoRegular", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    line-height: 35px;
+}
+
+main h4 {
+    color: white;
+    font-size: 1.4rem;
+    font-family: "RobotoRegular", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+main p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.align {
+    align-items: center;
+    text-align: center;
+}
+
+.section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ptsfort-background {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/backgroundtext.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**************************************************************
+ *  POINTS FORTS                                              *
+ **************************************************************/
+
+.row {
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+}
+
+.col {
+    background-color: #34495e;
+    border: thick double #2c3e50;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.col-img {
+    height: 125px;
+    margin-top: 20px;
+}
+
+/**************************************************************
+ *  RESPONSIVE DESIGN - ADAPTIVE TEXT                         *
+ **************************************************************/
+
+ /*
+ *  GALAXY FOLD | IPHONE 5/SE
+ */
+ @media (max-width: 375px) { 
+    main h1 {
+        font-size: 1.1rem;
+    } 
+    main h3 {
+        font-size: 0.85rem;
+        line-height: 22.5px;
+    }
+    .ptsfort-background {
+        background-image: none;
+    }
+} 
+
+
+
+/*
+ *  IPHONE X | PIXEL 2XL | PIXEL 2 | GALAXY S5 | MOTO G4 | IPHONE 6/7/8 | IPHONE 6/7/8 PLUS |
+ */
+@media (min-width: 375px) and (max-width: 500px) { 
+    main h1 {
+        font-size: 1.45rem;
+    } 
+    main h3 {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .ptsfort-background {
+        background-image: none;
+    }
+} 
+
+/*
+ *  SURFACE DUO
+ */
+@media (min-width: 500px) and (max-width: 750px) {  /* 500px < 750px */
+    main h1 {
+        font-size: 2rem;
+    } 
+    main h3 {
+        font-size: 1.4rem;
+    }
+    .ptsfort-background {
+        background-image: none;
+    }
+} 
+
+
+/*
+ *  IPAD | IPAD PRO
+ */
+ /*
+@media (min-width: 750px) {
+    main h1 {
+        font-size: 2.8rem;
+    } 
+} */
