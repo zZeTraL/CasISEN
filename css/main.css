@@ -70,7 +70,7 @@ main p {
     align-items: center;
 }
 
-.col-3 {
+.ptsforts-col {
     position: relative;
     text-align: center;
     display: grid;
@@ -79,7 +79,7 @@ main p {
     grid-auto-rows: 300px;
 }
 
-.column-test {
+.ptsforts-col-element {
     background-color: #34495e;
     border: thick double #2c3e50;
     border-radius: 20px;
@@ -91,7 +91,7 @@ main p {
     margin-top: 20px;
 }
 
-.ptsfort-background {
+.ptsforts-background {
     display: flex;
     align-items: center;
     width: 100%;

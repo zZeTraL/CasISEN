@@ -37,20 +37,20 @@
                     Retrouvez la présentation de vos jeux favoris mais surtout tous les bon plans du moment !
                 </h3>
             </div>
-            <section class="section ptsfort-background">
+            <section class="section ptsforts-background">
                 <div class="container-section aos-animate" data-aos="zoom-in">
                     <h2>Nos points forts</h2>
-                    <div class="col-3">
-                        <div class="column-test aos-animate" data-aos="zoom-in">
+                    <div class="ptsforts-col">
+                        <div class="ptsforts-col-element aos-animate" data-aos="zoom-in">
                             <img src="../CasISEN/img/clock.svg" alt="Logo" class="col-img">
                             <h4>Ponctualité</h4>
                             <p>Retrouvez chaque jour des nouvelles de l'actualité mondiale autour des casinos, ne louper aucune information !</p>
                         </div>
-                        <div class="column-test aos-animate" data-aos="zoom-in">
+                        <div class="ptsforts-col-element aos-animate" data-aos="zoom-in">
                             <img src="../CasISEN/img/logo.png" alt="Logo" class="nav-logo">
                             <h4>Ponctualité</h4>
                         </div>
-                        <div class="column-test aos-animate" data-aos="zoom-in">
+                        <div class="ptsforts-col-element aos-animate" data-aos="zoom-in">
                             <img src="../CasISEN/img/logo.png" alt="Logo" class="nav-logo">
                             <h4>Ponctualité</h4>
                         </div>
