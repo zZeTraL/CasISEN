@@ -51,6 +51,10 @@ main p {
     padding: 0;
 }
 
+.h-500 {
+    height: 5000px;
+}
+
 .align {
     align-items: center;
     text-align: center;
@@ -70,6 +74,17 @@ main p {
     align-items: center;
 }
 
+.ptsforts-background {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/backgroundtext.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .ptsforts-col {
     position: relative;
     text-align: center;
@@ -86,20 +101,15 @@ main p {
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
+.ptsforts-col-element p {
+    margin-top: 15px;
+    padding: 0 15px 0 15px;
+    font-family: "RobotoRegular", sans-serif;
+}
+
 .col-img {
     height: 125px;
     margin-top: 20px;
-}
-
-.ptsforts-background {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 1000px;
-    background-image: url(../img/backgroundtext.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /**************************************************************
@@ -196,7 +206,7 @@ main p {
         font-size: 1.1rem;
     } 
     main h2 {
-        font-size: 0.95rem;
+        font-size: 1rem;
         line-height: 22.5px;
     }
     main h3 {
