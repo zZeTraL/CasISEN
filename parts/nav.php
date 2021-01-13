@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-    <nav class="nav-container">
+    <nav class="nav-container-test">
         <a class="flip-animation" href="index.php"><img src="../CasISEN/img/logo.png" alt="Logo" class="nav-logo"></a>
         <button class="become-vip-button hvr-pulse-grow">
             <a href=""><i class="fa fa-diamond" aria-hidden="true"></i>Devenir VIP</a>
