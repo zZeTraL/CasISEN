@@ -148,7 +148,7 @@ main p {
 }
 
 .svg-green {
-    height: 95px; 
+    height: 75px; 
     margin-left: 30px;
 }
 
@@ -160,12 +160,12 @@ main p {
 }
 
 .button-resp {
-    margin-left: 200px;
+    margin-left: 225px;
 }
 
 .button-bonus {
     width: 100%;
-    height: 75px;
+    height: 60px;
     border-radius: 10%/50%;
     border-style: none;
     padding: 0 50px 0 50px;
@@ -195,12 +195,22 @@ main p {
     main h1 {
         font-size: 1.1rem;
     } 
+    main h2 {
+        font-size: 0.95rem;
+        line-height: 22.5px;
+    }
     main h3 {
         font-size: 0.85rem;
         line-height: 22.5px;
     }
-    .ptsfort-background {
+    .ptsforts-col {
+        grid-template-columns: none;
+    }
+    .ptsforts-background {
         background-image: none;
+    }
+    .ptsforts-col-element p{
+        font-size: 1rem;
     }
 } 
 
@@ -217,52 +227,8 @@ main p {
         font-size: 1rem;
         line-height: 30px;
     }
-    .ptsfort-background {
+    .ptsforts-background {
         background-image: none;
-    }
-    .figure-background {
-        height: 100px;
-        align-items: start;
-        justify-content: center;
-    }
-    .col-4 {
-        flex-direction: column;
-    }
-    .col-4 img {
-        position: absolute;
-        margin: 0;
-        transform: translateX(-90px);
-        z-index: 10;
-    }
-    .casino-url {
-        visibility: hidden;
-    }
-    .figure-desc {
-        position: absolute;
-        margin: 0;
-        z-index: 12;
-        font-size: 0.9rem;
-        transform: translateX(25px);
-    }
-    .svg-green {
-        margin: 0;
-        position: absolute;
-        transform: translateY(-10px) translateX(50px);
-        opacity: 0.75;
-        height: 170px;
-        z-index: 2;
-    }
-    .button-bonus {
-        margin: 0;
-        height: 50px;
-    }
-    .button-bonus a {
-        font-size: 0.9rem;
-    }
-    .button-resp {
-        height: 10px;
-        transform: translateX(-58%) translateY(60px);
-        z-index: 13;
     }
 } 
 
@@ -276,11 +242,10 @@ main p {
     main h3 {
         font-size: 1.4rem;
     }
-    .ptsfort-background {
+    .ptsforts-background {
         background-image: none;
     }
 } 
-
 
 /*
  *  IPAD | IPAD PRO
@@ -291,3 +256,174 @@ main p {
         font-size: 2.8rem;
     } 
 } */
+
+/**************************************************************
+ *  RESPONSIVE - EN CE MOMENT                                 *
+ **************************************************************/
+
+/*
+ *  GALAXY FOLD
+ */
+  @media (min-width: 280px) and (max-width: 300px) {
+    .figure-background {
+        height: 130px;
+        align-items: start;
+        justify-content: center;
+    }
+    .col-4 {
+        flex-direction: column;
+    }
+    .col-4 img {
+        height: 45px;
+        position: absolute;
+        margin-top: 10px;
+        transform: translateX(-80px);
+        z-index: 10;
+    }
+    .casino-url {
+        visibility: hidden;
+    }
+    .figure-desc {
+        position: absolute;
+        margin: 0;
+        z-index: 12;
+        font-size: 0.9rem;
+        transform: translateX(25px);
+    }
+    .figure-desc p {
+        font-size: 0.65rem;
+        transform: translateX(15px) translateY(35px);
+    }
+    .svg-green {
+        margin: 0;
+        position: absolute;
+        transform: translateX(25px);
+        opacity: 0.75;
+        height: 130px;
+        z-index: 2;
+    }
+    .button-bonus {
+        margin: 0;
+        height: 45px;
+    }
+    .button-bonus a {
+        font-size: 0.7rem;
+    }
+    .button-resp {
+        margin: 0;
+        transform: translateY(35px);
+        z-index: 13;
+    }
+}
+
+ /*
+  *  IPHONE X | IPHONE 6/7/8 | IPHONE 5/SE | MOTO G4 | GALAXY S5
+  */
+@media (min-width: 320px) and (max-width: 380px) {
+    .figure-background {
+        height: 130px;
+        align-items: start;
+        justify-content: center;
+    }
+    .col-4 {
+        flex-direction: column;
+    }
+    .col-4 img {
+        height: 50px;
+        position: absolute;
+        margin-top: 10px;
+        transform: translateX(-110px);
+        z-index: 10;
+    }
+    .casino-url {
+        visibility: hidden;
+    }
+    .figure-desc {
+        position: absolute;
+        margin: 0;
+        z-index: 12;
+        font-size: 0.9rem;
+        transform: translateX(25px);
+    }
+    .figure-desc p {
+        font-size: 0.775rem;
+        transform: translateX(30px) translateY(20px);
+    }
+
+    .svg-green {
+        margin: 0;
+        position: absolute;
+        transform: translateX(50px);
+        opacity: 0.75;
+        height: 130px;
+        z-index: 2;
+    }
+    .button-bonus {
+        margin: 0;
+        height: 50px;
+    }
+    .button-bonus a {
+        font-size: 0.9rem;
+    }
+    .button-resp {
+        margin: 0;
+        transform: translateY(30px);
+        z-index: 13;
+    }
+}
+
+
+ /*
+  *  PIXEL 2 | PIXEL 2XL | IPHONE 6/7/8 PLUS
+  */
+  @media (min-width: 411px) and (max-width: 450px) {
+    .figure-background {
+        height: 130px;
+        align-items: start;
+        justify-content: center;
+    }
+    .col-4 {
+        flex-direction: column;
+    }
+    .col-4 img {
+        height: 50px;
+        position: absolute;
+        margin-top: 10px;
+        transform: translateX(-130px);
+        z-index: 10;
+    }
+    .casino-url {
+        visibility: hidden;
+    }
+    .figure-desc {
+        position: absolute;
+        margin: 0;
+        z-index: 12;
+        font-size: 0.9rem;
+        transform: translateX(25px);
+    }
+    .figure-desc p {
+        font-size: 0.85rem;
+        transform: translateX(30px) translateY(20px);
+    }
+    .svg-green {
+        margin: 0;
+        position: absolute;
+        transform: translateX(50px);
+        opacity: 0.75;
+        height: 130px;
+        z-index: 2;
+    }
+    .button-bonus {
+        margin: 0;
+        height: 50px;
+    }
+    .button-bonus a {
+        font-size: 0.9rem;
+    }
+    .button-resp {
+        margin: 0;
+        transform: translateY(30px);
+        z-index: 13;
+    }
+}
