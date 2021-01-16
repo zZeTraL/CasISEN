@@ -83,6 +83,14 @@ main p {
     height: 2750px;
 }
 
+.h-300 {
+    height: 3000px;
+}
+
+.h-auto {
+    height: auto;
+}
+
 .align {
     align-items: center;
     text-align: center;
@@ -291,7 +299,7 @@ main p {
         font-size: 0.85rem;
         line-height: 22.5px;
     }
-    .ptsforts-col, .article-grid, .footer-grid {
+    .ptsforts-col, .article-grid {
         grid-template-columns: none;
     }
     .ptsforts-background {
@@ -300,7 +308,7 @@ main p {
     .ptsforts-col-element p{
         font-size: 1rem;
     }
-    .article-grid, .footer-grid {
+    .article-grid {
         grid-auto-rows: auto;
     }
 } 

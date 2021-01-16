@@ -1,5 +1,5 @@
-<footer class="footer-background">
-    <div class="footer-grid">
+<footer class="footer-background aos-animate">
+    <div class="footer-grid" data-aos="fade" data-aos-delay="250" data-aos-duration="1000">
         <div class="footer-grid-element">
             <div class="footer-logo-title">
                 <img class="footer-logo" src="../CasISEN/img/logo.png" alt="Logo">
@@ -29,11 +29,21 @@
             <p>Jeu responsable</p>
         </div>
         <div class="footer-grid-element">
-            ggsdgsd
+            <span class="w-800">Jeux populaires</span>
+            <div class="footer-url flex flex-dirC m-t20">
+                <a href="index.php">Poker</a>
+                <a href="index.php">BlackJack</a>
+                <a href="index.php">Roulette</a>
+                <a href="index.php">Crazy Time</a>
+            </div>
         </div>
         <div class="footer-grid-element">
-            ggsdgsd
+            <span class="w-800">Avis Casino</span>
+            <p>Casino par note</p>
+            <p>Casino par méthode de paiement</p>
+            <p>Casino par bonus de premier dépôt</p>
         </div>
+        <div class="footer-grid-element media-visible"></div>
         <div class="footer-grid-element">
             <span class="w-800">Liens rapides</span>
             <div class="footer-url flex flex-dirC m-t20">
@@ -45,6 +55,23 @@
             </div>
         </div>
     </div>
-
-
+    <div class="footer-warning" data-aos="fade" data-aos-delay="250" data-aos-duration="1000">
+        <p>
+           <strong>JEU RESPONSABLE :</strong> Nous ne sommes pas responsables des pertes dues aux jeux de hasard dans les casinos ou aux paris sur les sites de paris liés à l'une de nos offres de bonus. 
+           Le joueur est responsable de la somme pour laquelle il est prêt et capable de jouer. 
+           Ne pariez pas ou ne pariez pas avec de l'argent que vous ne pouvez pas vous permettre de perdre. 
+           Ne poursuivez pas vos pertes. Les joueurs ont la responsabilité de vérifier les lois sur les jeux dans leur pays ou juridiction, et ils doivent le faire avant de jouer de l’argent dans n’importe quel site de jeux d'argent en ligne.
+        </p> 
+        <p>
+            <strong>ATTENTION :</strong> Les offres sur notre site sont susceptibles d'évoluer ou d'être annulées. 
+            Nous recommandons toujours au joueur d'examiner les conditions et de vérifier le bonus directement sur le site du casino/des sociétés de paris. 
+        </p>
+        <p>
+            18 ans et plus, réservé aux nouveaux clients, T&C Apply, jouez de manière responsable <strong><a href="www.begambleaware.org">www.begambleaware.org</a></strong><br>
+            Jouer comporte des risques : endettement, dépendance… Appelez le 09 74 75 13 13 (appel non surtaxé)
+        </p>
+        <p>
+            2021 Copyrights © CasISEN. All rights reserved.
+        </p>
+    </div>
 </footer>

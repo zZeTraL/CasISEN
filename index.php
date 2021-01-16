@@ -32,7 +32,7 @@
     </header>
 
     <main class="aos-animate">
-        <article class="h-275">
+        <article class="h-auto">
             <div class="container-section aos-animate" data-aos="fade">
                 <h1>Bienvenue sur Cas'ISEN !</h1>
                 <h3>
@@ -140,6 +140,9 @@
                                 <span>Comment bien gérer sa bankroll</span>
                             </div>
                         </a>
+                    </div>
+                    <div style="height: 350px;">
+                        fgf
                     </div>
                 </div>
             </section>
