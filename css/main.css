@@ -51,8 +51,36 @@ main p {
     padding: 0;
 }
 
-.h-500 {
-    height: 5000px;
+.flex {
+    display: flex;
+}
+
+.flex-dirC {
+    flex-direction: column;
+}
+
+.w-800 {
+    font-weight: 800;
+}
+
+.m-l10 {
+    margin-left: 10px;
+}
+
+.m-b10 {
+    margin-bottom: 10px;
+}
+
+.m-t10 {
+    margin-top: 10px;
+}
+
+.m-t20 {
+    margin-top: 20px;
+}
+
+.h-275 {
+    height: 2750px;
 }
 
 .align {
@@ -194,6 +222,56 @@ main p {
     opacity: 0.775;
 }
 
+.article-grid {
+    position: relative;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    overflow: hidden;
+}
+
+.article-background {
+    background-color: #34495e;
+    border: thick double #2c3e50;
+    height: 250px;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.article-flex-items {
+    display: flex;
+    align-items: flex-end;
+}
+
+.article-grid-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0.95;
+    z-index: 1;
+}
+
+.article-grid span {
+    position: absolute;
+    padding: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    max-width: 15rem;
+    font-family: "RobotoRegular", sans-serif;
+    z-index: 4;
+}
+
+.article-grid-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 20px;
+    z-index: 3;
+}
+
 /**************************************************************
  *  RESPONSIVE DESIGN - ADAPTIVE TEXT                         *
  **************************************************************/
@@ -213,7 +291,7 @@ main p {
         font-size: 0.85rem;
         line-height: 22.5px;
     }
-    .ptsforts-col {
+    .ptsforts-col, .article-grid, .footer-grid {
         grid-template-columns: none;
     }
     .ptsforts-background {
@@ -221,6 +299,9 @@ main p {
     }
     .ptsforts-col-element p{
         font-size: 1rem;
+    }
+    .article-grid, .footer-grid {
+        grid-auto-rows: auto;
     }
 } 
 
