@@ -93,6 +93,29 @@
                             </div>
                         </div>
                     </div>
+                    <div class="article-grid aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
+                        <a href="../CasISEN/articles/article1.php">
+                            <div class="article-background article-flex-items hvr-shrink">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article1.jpg" alt="article-image" >
+                                <span>Le casino en ligne, des débuts à nos jours</span>
+                            </div>
+                        </a>
+                        <a href="#test">
+                            <div class="article-background article-flex-items hvr-shrink">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article2.jpg" alt="article-image" >
+                                <span>Roshtein gagne 325 000 € sur Fruit Party !!</span>
+                            </div>
+                        </a>
+                        <a href="#test">
+                            <div class="article-background article-flex-items hvr-shrink">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article3.jpg" alt="article-image" >
+                                <span>Comment bien gérer sa bankroll</span>
+                            </div>
+                        </a>
+                    </div>
                     <div class="figure-background" data-aos="flip-right" data-aos-delay="450" data-aos-duration="1000">
                         <div class="col-4">
                             <img src="../CasISEN/img/gamdom.png" alt="Logo" class="col-4-img">
@@ -117,29 +140,6 @@
                                 </button>
                             </div>
                         </div>
-                    </div>
-                    <div class="article-grid aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
-                        <a href="../CasISEN/articles/article1.php">
-                            <div class="article-background article-flex-items hvr-shrink">
-                                <div class="article-grid-gradient"></div>
-                                <img class="article-grid-img" src="../CasISEN/img/article1.jpg" alt="article-image" >
-                                <span>Le casino en ligne, des débuts à nos jours</span>
-                            </div>
-                        </a>
-                        <a href="#test">
-                            <div class="article-background article-flex-items hvr-shrink">
-                                <div class="article-grid-gradient"></div>
-                                <img class="article-grid-img" src="../CasISEN/img/article2.jpg" alt="article-image" >
-                                <span>Roshtein gagne 325 000 € sur Fruit Party !!</span>
-                            </div>
-                        </a>
-                        <a href="#test">
-                            <div class="article-background article-flex-items hvr-shrink">
-                                <div class="article-grid-gradient"></div>
-                                <img class="article-grid-img" src="../CasISEN/img/article3.jpg" alt="article-image" >
-                                <span>Comment bien gérer sa bankroll</span>
-                            </div>
-                        </a>
                     </div>
                     <div style="height: 350px;">
                         fgf

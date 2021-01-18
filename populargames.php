@@ -21,7 +21,7 @@
         <!-- BOOTSTRAP -->
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
-        <title>Cas'ISEN | Actualités</title>
+        <title>Cas'ISEN | Jeux populaires</title>
 </head>
 <body>
 
