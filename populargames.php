@@ -34,75 +34,114 @@
 
     <main class="aos-animate">
         <article class="container-section">
-            <section class="section" style="height: 1600px;">
-            <div class="container-section aos-animate" data-aos="fade">
-                <h1>Les jeux populaires au casino</h1>
-                <h3>Le casino est bien sûr rempli de différents jeux qui sont plus ou moins connus. <br>
-                    Que ce soit pour les jeux de tables, en physique ou en ligne nous allons vous présenter les plus populaires!
-                </h3>
-            </div>
-            
-
-
-            
-            <div class="article-grid-pg aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
-                <a href="../CasISEN/blackjack.php">
-                    <div class="article-background article-flex-items-pg hvr-shrink">
-                        <div class="article-grid-gradient"></div>
-                        <img class="article-grid-img" src="../CasISEN/img/blackjack.jpg" alt="blackjack-image" >
-                        <span> <h2>BLACKJACK</h2> 
-                                L'incontournable jeu du casino, nommé le BalckJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
-                                <br>Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
-                                Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                <br> 
-                                <span1>Lire la suite</span1>
-
-                        </span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="article-grid-pg aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
-                <a href="../CasISEN/articles/article1.php">
-                    <div class="article-background article-flex-items-pg hvr-shrink">
-                        <div class="article-grid-gradient"></div>
-                        <img class="article-grid-img" src="../CasISEN/img/poker.jpg" alt="poker-image" >
-                        <span><h2><B>POKER</B></h2>L'incontournable jeu du casino, nommé le BalckJack est devenu célebre au XVIIème siécle.</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="article-grid-pg aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
-                <a href="../CasISEN/articles/article1.php">
-                    <div class="article-background article-flex-items-pg hvr-shrink">
-                        <div class="article-grid-gradient"></div>
-                        <img class="article-grid-img" src="../CasISEN/img/roulette.png" alt="roulette-image" >
-                        <span><h2><B>ROULETTE</B></h2>L'incontournable jeu du casino, nommé le BalckJack est devenu célebre au XVIIème siécle.</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="article-grid-pg aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
-                <a href="../CasISEN/articles/article1.php">
-                    <div class="article-background article-flex-items-pg hvr-shrink">
-                        <div class="article-grid-gradient"></div>
-                        <img class="article-grid-img" src="../CasISEN/img/live.png" alt="live-image" >
-                        <span><h2><B>LIVE CASINO</B></h2>L'incontournable jeu du casino, nommé le BalckJack est devenu célebre au XVIIème siécle.</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="article-grid-pg aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
-                <a href="../CasISEN/articles/article1.php">
-                    <div class="article-background article-flex-items-pg hvr-shrink">
-                        <div class="article-grid-gradient"></div>
-                        <img class="article-grid-img" src="../CasISEN/img/machine-à-sous.png" alt="machine-image" >
-                        <span><h2><B>MACHINE A SOUS</B></h2>L'incontournable jeu du casino, nommé le BalckJack est devenu célebre au XVIIème siécle.</span>
-                    </div>
-                </a>
-            </div>
-
-
+            <section class="section h-175">
+                <div class="article-pg-title m-b40 aos-animate" data-aos-duration="500" data-aos="fade">
+                    <h1>Les jeux populaires au casino</h1>
+                    <h3>
+                        Le casino est bien sûr rempli de différents jeux qui sont plus ou moins connus. <br>
+                        Que ce soit pour les jeux de tables, en physique ou en ligne nous allons vous présenter les plus populaires!
+                    </h3>
+                </div>
+                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+                    <a href="../CasISEN/blackjack.php">
+                        <div class="article-background article-flex-items-pg hvr-shrink">
+                            <div class="article-grid-gradient"></div>
+                            <img class="article-img" src="../CasISEN/img/blackjack.jpg" alt="blackjack-image" >
+                            <div class="article-pg-text">
+                                <h2>BLACKJACK</h2> 
+                                <span>
+                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
+                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
+                                    Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
+                                    <p>Lire la suite</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+                    <a href="../CasISEN/articles/article1.php">
+                        <div class="article-background article-flex-items-pg hvr-shrink">
+                            <div class="article-grid-gradient"></div>
+                            <img class="article-img" src="../CasISEN/img/poker.jpg" alt="poker-image" >
+                            <div class="article-pg-text">
+                                <h2>POKER</h2> 
+                                <span>
+                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
+                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
+                                    Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
+                                    <p>Lire la suite</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
+                    <a href="../CasISEN/articles/article1.php">
+                        <div class="article-background article-flex-items-pg hvr-shrink">
+                            <div class="article-grid-gradient"></div>
+                            <img class="article-img" src="../CasISEN/img/roulette.png" alt="roulette-image" >
+                            <div class="article-pg-text">
+                                <h2>ROULETTE</h2> 
+                                <span>
+                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
+                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
+                                    Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
+                                    <p>Lire la suite</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--<div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">
+                    <a href="../CasISEN/articles/article1.php">
+                        <div class="article-background article-flex-items-pg hvr-shrink">
+                            <div class="article-grid-gradient"></div>
+                            <img class="article-img" src="../CasISEN/img/live.png" alt="live-image">
+                            <div class="article-pg-text">
+                                <h2>LIVE</h2> 
+                                <span>
+                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
+                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
+                                    Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
+                                    <p>Lire la suite</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>-->
+                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+                    <a href="../CasISEN/articles/article1.php">
+                        <div class="article-background article-flex-items-pg hvr-shrink">
+                            <div class="article-grid-gradient"></div>
+                            <img class="article-img" src="../CasISEN/img/live.png" alt="machine-image" >
+                            <div class="article-pg-text">
+                                <h2>LIVE</h2> 
+                                <span>
+                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
+                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
+                                    <p>Lire la suite</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+                    <a href="../CasISEN/articles/article1.php">
+                        <div class="article-background article-flex-items-pg hvr-shrink">
+                            <div class="article-grid-gradient"></div>
+                            <img class="article-img" src="../CasISEN/img/machine-à-sous.png" alt="machine-image" >
+                            <div class="article-pg-text">
+                                <h2>MACHINE A SOUS</h2> 
+                                <span>
+                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
+                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
+                                    <p>Lire la suite</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </section>
         </article>
     </main>

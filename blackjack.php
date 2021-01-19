@@ -35,9 +35,9 @@
 
     <main class="aos-animate">
         <article>
-            <section class="h-2500v aos-animate" data-aos="fade">
+            <section class="h-2500">
                 <div class="container-section populargames-article">
-                    <div class="populargames-article-intro">
+                    <div class="populargames-article-intro" data-aos="fade" data-aos-duration="1000">
                         <h1>Le Blackjack</h1>
                         <p>
                             L'incontournable jeu du casino, nommé le BalckJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
@@ -45,11 +45,11 @@
                             Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
                         </p>
                     </div>
-                    <div class="populargames-article-video" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="populargames-article-video" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                         <iframe src="https://www.youtube.com/embed/ddu_fYRuv5I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
-                    <div class="populargames-article-rules">
+                    <div class="populargames-article-rules" data-aos="fade" data-aos-duration="1000">
                         <h2>Les règles</h2>
                         <p>
                                 Après avoir reçu les deux cartes, le joueur pioche la carte de sorte que sa valeur soit proche de 21 sans dépasser la valeur. 
@@ -68,7 +68,7 @@
                     </div>
 
 
-                    <div class ="populargames-article-strat">
+                    <div class ="populargames-article-strat" data-aos="fade" data-aos-duration="1000">
                         <div class="aos-animate" data-aos="fade">
                             <h2>La stratégie</h2>
                             <p class="m-b40">

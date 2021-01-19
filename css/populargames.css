@@ -1,44 +1,23 @@
-
 /**************************************************************
  * JEUX POPULAIRE CSS                                         *
  **************************************************************/
 
-.article-grid-pg {
-    position: relative;
-    display: grid;
-    grid-gap: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 260px;
-    padding-top: 15px;
-    overflow: hidden;
-}
-
-.article-flex-items-pg {
+.article-pg {
     display: flex;
-    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
 }
 
-.article-grid-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    opacity: 0.95;
-    z-index: 1;
-}
-
-.article-grid-pg span {
+.article-pg-text {
     position: absolute;
-    padding: 2rem;
     color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-    max-width: 40rem ;
-    padding-top: 10px;
-    font-family: "RobotoRegular", sans-serif;
+    padding: 1rem 2rem 1rem 2rem;
+    height: auto;
     z-index: 4;
 }
-.article-grid-pg span h2 {
-    color: white;
+
+.article-pg-text h2 {
     font-weight: 800;
     font-size: 2rem;
     max-width: 30rem;
@@ -48,16 +27,29 @@
     z-index: 4;
 }
 
-.article-grid-pg span1 {
-    position: absolute;
-    
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-    max-width: 40rem ;
-    padding-top: 10px;
+.article-pg-text span {
+    font-size: 1.15rem;
+    line-height: 25px;
     font-family: "RobotoBold", sans-serif;
     z-index: 4;
+}
+
+.article-pg-text p {
+    padding-top: 20px;
+}
+
+.article-flex-items-pg {
+    display: flex;
+    align-items: flex-start;
+}
+
+.article-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0.95;
+    z-index: 1;
 }
 
 /**************************************************************
@@ -136,4 +128,54 @@
     justify-content: center;
     margin-bottom: 40px; 
     margin-top: 40px;
+}
+
+
+/**************************************************************
+ * RESPONSIVE                                                 *
+ **************************************************************/
+
+ /*
+ *  IPHONE X | GALAXY S5 | MOTO G4 | IPHONE 6/7/8 | IPAD PRO
+ */
+ @media (min-width: 320px) and (max-width: 380px) {
+    .article-pg span {
+        line-height: 5px;
+        font-size: 0.75rem;
+    }
+    .article-pg-text p {
+        visibility: hidden;
+    }
+    .populargames-article-img {
+        width: 100%;
+    }
+}
+
+ /*
+ *  PIXEL 2 | PIXEL 2XL | IPHONE 6/7/8 PLUS
+ */
+ @media (min-width: 410px) and (max-width: 500px) {
+    .article-pg span {
+        line-height: 5px;
+        font-size: 0.75rem;
+    }
+    .article-pg-text p {
+        visibility: hidden;
+    }
+    .populargames-article-img {
+        width: 100%;
+    }
+}
+
+ /*
+ *  PIXEL 2 | PIXEL 2XL | IPHONE 6/7/8 PLUS
+ */
+ @media (min-width: 540px) and (max-width: 580px) {
+    .article-pg span {
+        line-height: 5px;
+        font-size: 0.85rem;
+    }
+    .article-pg-text p {
+        visibility: visible;
+    }
 }
