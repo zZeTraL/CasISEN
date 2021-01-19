@@ -93,23 +93,6 @@
                         </div>
                     </a>
                 </div>
-                <!--<div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">
-                    <a href="../CasISEN/articles/article1.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/live.png" alt="live-image">
-                            <div class="article-pg-text">
-                                <h2>LIVE</h2> 
-                                <span>
-                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
-                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
-                                    Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                    <p>Lire la suite</p>
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>-->
                 <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
                     <a href="../CasISEN/articles/article1.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
@@ -130,7 +113,7 @@
                     <a href="../CasISEN/articles/article1.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
                             <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/machine-à-sous.png" alt="machine-image" >
+                            <img class="article-img" src="../CasISEN/img/machine-a-sous.png" alt="machine-image" >
                             <div class="article-pg-text">
                                 <h2>MACHINE A SOUS</h2> 
                                 <span>
