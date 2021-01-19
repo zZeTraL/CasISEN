@@ -1,0 +1,139 @@
+
+/**************************************************************
+ * JEUX POPULAIRE CSS                                         *
+ **************************************************************/
+
+.article-grid-pg {
+    position: relative;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 260px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.article-flex-items-pg {
+    display: flex;
+    align-items: flex-start;
+}
+
+.article-grid-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0.95;
+    z-index: 1;
+}
+
+.article-grid-pg span {
+    position: absolute;
+    padding: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    max-width: 40rem ;
+    padding-top: 10px;
+    font-family: "RobotoRegular", sans-serif;
+    z-index: 4;
+}
+.article-grid-pg span h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    max-width: 30rem;
+    letter-spacing: 5px;
+    line-height: 1.8rem;
+    font-family: "RobotoBold", sans-serif;
+    z-index: 4;
+}
+
+.article-grid-pg span1 {
+    position: absolute;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    max-width: 40rem ;
+    padding-top: 10px;
+    font-family: "RobotoBold", sans-serif;
+    z-index: 4;
+}
+
+/**************************************************************
+ * ARTICLE CSS                                                *
+ **************************************************************/
+
+ .populargames-article-intro {
+    margin: 0 0 40px 0;
+}
+
+.populargames-article-intro h1 {
+    color: white;
+    font-size: 2.8rem;
+    font-family: "RobotoBlack", sans-serif;
+    padding: 20px 0 20px 0;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: 6px;
+}
+
+.populargames-article-intro p {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1,2rem;
+    font-family: "RobotoRegular", sans-serif;
+}
+
+.populargames-article-rules p {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1,2rem;
+    font-family: "RobotoRegular", sans-serif;
+}
+
+.populargames-article-strat p {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1,2rem;
+    font-family: "RobotoRegular", sans-serif;
+}
+
+.populargames-article-video {
+    display: flex;
+    justify-content: center;
+}
+.populargames-article-video iframe {
+    width: 1000px;
+    height: 500px;
+}
+
+.populargames-article-rules h2 {
+    color: white;
+    font-size: 2.2rem;
+    font-family: "RobotoBold", sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+.populargames-article-strat h2 {
+    color: white;
+    font-size: 2.2rem;
+    font-family: "RobotoBold", sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+.populargames-article-img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; 
+    margin-top: 40px;
+}
