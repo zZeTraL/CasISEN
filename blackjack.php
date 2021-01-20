@@ -34,11 +34,11 @@
 
 
     <main class="aos-animate">
-        <article>
-            <section class="h-2500">
-                <div class="container-section populargames-article">
+        <article class="h-2500 container-section">
+            <h1>Le Blackjack</h1>
+            <section>
+                <div class="populargames-article">
                     <div class="populargames-article-intro" data-aos="fade" data-aos-duration="1000">
-                        <h1>Le Blackjack</h1>
                         <p>
                             L'incontournable jeu du casino, nommé le BalckJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
                             <br>Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 

@@ -6,7 +6,6 @@
     display: flex;
     position: relative;
     overflow: hidden;
-    margin-bottom: 50px;
 }
 
 .article-pg-text {
@@ -35,6 +34,10 @@
 }
 
 .article-pg-text p {
+    font-size: 1.15rem;
+    line-height: 25px;
+    font-family: "RobotoBold", sans-serif;
+    z-index: 4;
     padding-top: 20px;
 }
 

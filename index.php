@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../CasISEN/css/hover.css">
         <link rel="stylesheet" href="../CasISEN/css/main.css">
         <link rel="stylesheet" href="../CasISEN/css/footer.css">
+        <link rel="stylesheet" href="../CasISEN/css/populargames.css">
 
         <!-- FONTAWESOME LIB -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -116,7 +117,24 @@
                             </div>
                         </a>
                     </div>
-                    <div class="figure-background" data-aos="flip-right" data-aos-delay="450" data-aos-duration="1000">
+                    <div class="article-pg aos-animate" data-aos="flip-right" data-aos-delay="850" data-aos-duration="1000">
+                        <a href="../CasISEN/blackjack.php">
+                            <div class="article-background article-flex-items-pg hvr-shrink">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-img" src="../CasISEN/img/blackjack.jpg" alt="blackjack-image" >
+                                <div class="article-pg-text">
+                                    <h2>BLACKJACK</h2> 
+                                    <span>
+                                        L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
+                                        Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
+                                        Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
+                                    </span>
+                                    <p>Lire la suite</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="figure-background" data-aos="flip-right" data-aos-delay="1050" data-aos-duration="1000">
                         <div class="col-4">
                             <img src="../CasISEN/img/gamdom.png" alt="Logo" class="col-4-img">
                             <div class="casino-url">

@@ -87,10 +87,6 @@ main p {
     margin-top: 20px;
 }
 
-.m-t20 {
-    margin-top: 0px;
-}
-
 .h-175 {
     height: 1750px;
 }
@@ -238,7 +234,7 @@ main p {
     background-color: #27ae60;
 }
 
-.button-bonus a {
+.button-resp a {
     color: white;
     text-align: center;
     font-size: 1.1rem;

@@ -1,5 +1,5 @@
 <footer class="footer-background aos-animate">
-    <div class="footer-grid" data-aos="fade" data-aos-delay="250" data-aos-duration="1000">
+    <div class="footer-grid" data-aos="fade" data-aos-duration="500">
         <div class="footer-grid-element">
             <div class="footer-logo-title">
                 <img class="footer-logo" src="../CasISEN/img/logo.png" alt="Logo">
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-warning" data-aos="fade" data-aos-delay="250" data-aos-duration="1000">
+    <div class="footer-warning" data-aos="fade" data-aos-duration="500">
         <p>
            <strong>JEU RESPONSABLE :</strong> Nous ne sommes pas responsables des pertes dues aux jeux de hasard dans les casinos ou aux paris sur les sites de paris liés à l'une de nos offres de bonus. 
            Le joueur est responsable de la somme pour laquelle il est prêt et capable de jouer. 

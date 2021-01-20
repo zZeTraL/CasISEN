@@ -34,15 +34,15 @@
 
     <main class="aos-animate">
         <article class="container-section">
-            <section class="section h-175">
+            <h1>Les jeux populaires au casino</h1>
+            <section class="section h-150">
                 <div class="article-pg-title m-b40 aos-animate" data-aos-duration="500" data-aos="fade">
-                    <h1>Les jeux populaires au casino</h1>
                     <h3>
                         Le casino est bien sûr rempli de différents jeux qui sont plus ou moins connus. <br>
                         Que ce soit pour les jeux de tables, en physique ou en ligne nous allons vous présenter les plus populaires!
                     </h3>
                 </div>
-                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                     <a href="../CasISEN/blackjack.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
                             <div class="article-grid-gradient"></div>
@@ -53,13 +53,13 @@
                                     L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
                                     Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
                                     Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                    <p>Lire la suite</p>
                                 </span>
+                                <p>Lire la suite</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
                     <a href="../CasISEN/articles/article1.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
                             <div class="article-grid-gradient"></div>
@@ -70,13 +70,13 @@
                                     L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
                                     Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
                                     Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                    <p>Lire la suite</p>
                                 </span>
+                                <p>Lire la suite</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
+                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
                     <a href="../CasISEN/articles/article1.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
                             <div class="article-grid-gradient"></div>
@@ -87,13 +87,13 @@
                                     L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
                                     Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
                                     Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                    <p>Lire la suite</p>
                                 </span>
+                                <p>Lire la suite</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
                     <a href="../CasISEN/articles/article1.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
                             <div class="article-grid-gradient"></div>
@@ -103,13 +103,13 @@
                                 <span>
                                     L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
                                     Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
-                                    <p>Lire la suite</p>
                                 </span>
+                                <p>Lire la suite</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="article-pg aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
                     <a href="../CasISEN/articles/article1.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
                             <div class="article-grid-gradient"></div>
@@ -119,8 +119,8 @@
                                 <span>
                                     L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
                                     Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
-                                    <p>Lire la suite</p>
                                 </span>
+                                <p>Lire la suite</p>
                             </div>
                         </div>
                     </a>
