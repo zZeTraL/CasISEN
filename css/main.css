@@ -59,6 +59,10 @@ main p {
     flex-direction: column;
 }
 
+.block {
+    display: block;
+}
+
 .w-800 {
     font-weight: 800;
 }

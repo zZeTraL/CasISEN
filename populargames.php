@@ -48,7 +48,7 @@
     <main class="aos-animate">
         <article class="container-section">
             <h1 data-aos-duration="500" data-aos="fade">Les jeux populaires au casino</h1>
-            <section class="section h-150">
+            <section class="section h-auto">
                 <div class="article-pg-title m-b40 aos-animate" data-aos-duration="500" data-aos="fade">
                     <h3>
                         Le casino est bien sûr rempli de différents jeux qui sont plus ou moins connus.
@@ -104,7 +104,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+                <div class="article-pg m-b40 block aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
                     <a href="../CasISEN/parts/games/poker.php">
                         <div class="article-background article-flex-items-pg hvr-shrink">
                             <div class="article-grid-gradient"></div>

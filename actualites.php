@@ -78,21 +78,21 @@
                 
                 <div class="m-t20">
                     <h3>Autres article(s) à ne pas manquer...</h3>
-                    <a href="#test">
+                    <a href="#test" class="hvr-shrink block">
                         <div class="figure-background-news article-grid article-flex-items" data-aos="flip-right" data-aos-delay="250" data-aos-duration="1000">
                                 <div class="article-grid-gradient"></div>
                                 <img class="article-grid-img" src="../CasISEN/img/article4.png" alt="article-image" >
                                 <span>Le BlackJack, les stratégies avec Bidule</span>
                         </div>
                     </a>
-                    <a href="#test">
+                    <a href="#test" class="hvr-shrink">
                         <div class="figure-background-news article-grid article-flex-items" data-aos="flip-right" data-aos-delay="450" data-aos-duration="1000">
                                 <div class="article-grid-gradient"></div>
                                 <img class="article-grid-img" src="../CasISEN/img/article5.png" alt="article-image" >
                                 <span>La roulette, les techniques infaillibles pour gagner</span>
                         </div>
                     </a>
-                    <a href="#test">
+                    <a href="#test" class="hvr-shrink">
                         <div class="figure-background-news article-grid article-flex-items" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
                             <div class="article-grid-gradient"></div>
                             <img class="article-grid-img" src="../CasISEN/img/article6.jpg" alt="article-image" >
