@@ -6,12 +6,12 @@
         <meta name="description" content="Cas'ISEN est un site de partage des meilleurs plans et bonus du moment mais pas que... Retrouvez également toute l'actualité mondiale du casino en ligne !">
         
         <!-- CSS -->
-        <link rel="stylesheet" href="../CasISEN/css/body.css">
-        <link rel="stylesheet" href="../CasISEN/css/header.css">
-        <link rel="stylesheet" href="../CasISEN/css/hover.css">
-        <link rel="stylesheet" href="../CasISEN/css/main.css">
-        <link rel="stylesheet" href="../CasISEN/css/footer.css">
-        <link rel="stylesheet" href="../CasISEN/css/populargames.css">
+        <link rel="stylesheet" href="../../css/body.css">
+        <link rel="stylesheet" href="../../css/header.css">
+        <link rel="stylesheet" href="../../css/hover.css">
+        <link rel="stylesheet" href="../../css/main.css">
+        <link rel="stylesheet" href="../../css/footer.css">
+        <link rel="stylesheet" href="../../css/populargames.css">
 
         <!-- FONTAWESOME LIB -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,69 +22,116 @@
         <!-- BOOTSTRAP -->
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
-        <title>Cas'ISEN | Bienvenue</title>
+        <title>Cas'ISEN | Poker</title>
 </head>
 <body>
 
 
     <header class="header-container header-img gradient">
         <nav class="nav-container">
-            <a class="flip-animation" href="index.php">
-                <img src="../CasISEN/img/logo.png" alt="Logo" class="nav-logo">
+            <a class="flip-animation" href="../../index.php">
+                <img src="../../img/logo.png" alt="Logo" class="nav-logo">
             </a>
             <div class="become-vip-button hvr-pulse-grow">
                 <a href="#test"><i class="fa fa-diamond" aria-hidden="true"></i>Devenir VIP</a>
             </div>
-            <a class="hvr-grow" href="actualites.php"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Actualités</a>
-            <a class="hvr-grow" href="casino.php"><i class="fa fa-money" aria-hidden="true"></i>Casino</a>
-            <a class="hvr-grow" href="populargames.php"><i class="fa fa-fire" aria-hidden="true"></i>Jeux populaires</a>
+            <a class="hvr-grow" href="../../actualites.php"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Actualités</a>
+            <a class="hvr-grow" href="../../casino.php"><i class="fa fa-money" aria-hidden="true"></i>Casino</a>
+            <a class="hvr-grow" href="../../populargames.php"><i class="fa fa-fire" aria-hidden="true"></i>Jeux populaires</a>
         </nav>
         <div class="header-text">
-            <span>Cas'ISEN</span>  
+            <span>Poker Hold'em</span>  
         </div>
         <div class="icon-scroll"></div>
     </header>
 
+
     <main class="aos-animate">
-        <article class="h-auto">
-            <div class="container-section aos-animate" data-aos="fade">
-                <h1>Bienvenue sur Cas'ISEN !</h1>
-                <h3>
-                    Cas'ISEN est le site N°1 afin de découvrir et comparer les meilleurs casinos en ligne grâce a des avis structurés. 
-                    Retrouvez la présentation de vos jeux favoris mais surtout tous les bon plans du moment !
-                </h3>
-            </div>
-            <section class="section ptsforts-background">
-                <div class="container-section aos-animate" data-aos="zoom-in">
-                    <h2>Nos points forts</h2>
-                    <div class="ptsforts-col">
-                        <div class="ptsforts-col-element aos-animate" data-aos="zoom-in">
-                            <img src="../CasISEN/img/ponctualite.svg" alt="Logo" class="col-img">
-                            <h4>Ponctualité</h4>
-                            <p>Retrouvez chaque jour des nouvelles de l'actualité autour des casinos, ne loupez aucune information !</p>
-                        </div>
-                        <div class="ptsforts-col-element aos-animate" data-aos="zoom-in">
-                            <img src="../CasISEN/img/fiabilite.svg" alt="Logo" class="col-img">
-                            <h4>Fiabilité</h4>
-                            <p>Tous nos articles et avis sont certifiés et validés par des professionnels !</p>
-                        </div>
-                        <div class="ptsforts-col-element aos-animate" data-aos="zoom-in">
-                            <img src="../CasISEN/img/clock.svg" alt="Logo" class="col-img">
-                            <h4>JE SAIS PAS</h4>
-                            <p>Retrouvez chaque jour des nouvelles de l'actualité mondiale autour des casinos, ne loupez aucune information !</p>
+        <article class="h-2500 container-section">
+        <h1 data-aos="fade" data-aos-duration="1000">Poker Hold'em</h1>
+            <section data-aos="fade" data-aos-duration="1000">
+                <div class="populargames-article">
+                    <div class="populargames-article-intro">
+                        <p>
+                            L'un des jeux de cartes les plus populaire, qui se divise sous différente forme. <br>
+                            Que ce soit en tournoi, en ligne ou sur table, le poker rassemble des millions de joueurs chaque année.<br><br>
+                            Né à Robstown, au Texas, comme son nom l'indique, au début du XXe siècle, le Texas Hold'em est devenu très populaire
+                            aux États-Unis à la fin des années 1960. Mais c'était les sites de poker en ligne 
+                            du début du 20e siècle. 21e siècle, ce qui en fait le favori des fans du monde entier. 
+                            Aujourd'hui, cette version simplifiée du poker est plus courante dans les casinos. 
+                            Comme la version originale du jeu, il se joue avec un jeu de 52 cartes et le but est de gagner des paris, 
+                            symbolisés par des jetons, de vos adversaires. 
+                        </p>
+                    </div>
+                    <div class="populargames-article-video" data-aos="zoom-in" data-aos-duration="1000">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CsJCHS64NeQ" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="populargames-article-rules" data-aos="fade" data-aos-duration="1000">
+                        <h2>Les règles</h2>
+                        <p>
+                            Au début du jeu, auquel participent 2 à 10 joueurs, le croupier distribue 2 cartes «fermées» à chaque participant, 
+                            qui vous sont spécifiques et dont vous seul connaissez la valeur. 
+                            Puis il place 5 cartes communes au milieu du tapis, ouvertes à tous. 
+                            Si vous mélangez votre jeu avec ceux-ci, vous devez créer la main la plus forte, 
+                            en trouvant la meilleure combinaison possible avec un maximum de 5 cartes. <br><br>
+                        </p>
+                        <h3>Les différentes mains au Poker :</h3>
+                        <ul>
+                            <li>Hauteur ou Carte haute : absence de figure dont la valeur est celle de la carte la plus haute</li>
+                            <li>Paire : combine 2 cartes de même valeur</li>
+                            <li>Double paires : deux fois 2 cartes de même valeur</li>
+                            <li>Brelan : trois cartes de même valeur</li>
+                            <li>Quinte ou Suite : 5 cartes qui se suivent en valeur mais pas de la même couleur</li>
+                            <li>Flush ou Couleur : 5 cartes de la même couleur. </li>
+                            <li>Full ou Main pleine : un brelan et une paire</li>
+                            <li>Carré : quatre cartes de la même valeur</li>
+                            <li>Quinte à la couleur ou Quinte flush : 5 cartes qui se suivent dans la même couleur</li>
+                            <li>Quinte flush royale : 5 cartes, du 10 à l’As, qui se suivent dans la même couleur. C’est la meilleure main au poker</li>
+                        </ul>
+                    </div>
+
+
+                    <div class ="populargames-article-strat" data-aos="fade" data-aos-duration="1000">
+                        <div class="aos-animate" data-aos="fade">
+                            <h2>Les meilleurs joueurs de poker</h2>
+                            <p class="m-b40">
+                               Nombreux sont les joueurs de poker dans le monde, mais parmi eux certains se distinguent pour leur intelligence de jeux.<br>
+                               Et grace à ça, ils ont pu engranger de nombreux cashprize.<br>
+                               Mais quelle sont les meilleurs joueurs de poker de l'histoire ?<br></p>
+                               
+                               <h3>1. Stu Ungar</h3>
+                               <p>Stuart Errol Ungar, connu sous le nom de Stu "The Kid" Ungar était un joueur professionnel de poker et de gin-rami,
+                               parfois considéré comme le plus grand joueur de tous les temps dans les deux départements.
+                               Malheureusement, Stu a également excellé dans un autre domaine: les excès qui l'ont atteint en 1998 à l'âge de 45 ans. </p>
+                               
+
+                               <h3>2. Chip Reese</h3>
+                               <p>Doyle Brunson a dit de lui: "Si la vie de ma famille se résume à une partie de poker, je la passerai à Chip Reese. 
+                               "«Destiné à une carrière d'avocat, David Edward 'Chip» Reese était sur le point de commencer ses études de droit à l'Université de Stanford.
+                                En cours de route, Reese a participé à un tournoi à Las Vegas pour 400 $ d'entrée et a remporté 40 000 $. </p>
+                               
+
+                               <h3>3. Phil Hellmuth </h3>
+                               <p>Avec plus de 20 000 000 $ de revenus professionnels et 14 bracelets, Phil Hellmuth surpasse ce rang.
+                               Le "Poker Buffoon" est également connu pour ses fréquents swings humoristiques. </p>
+
+                               <h3>4. Johnny Moss</h3>
+                               <p>"Grand Old Man" a remporté 8 bracelets des World Series of Poker de 1970 à 1988.
+                                  Moss a été initié au jeu par des tricheurs et a travaillé pour les casinos pour repérer les tricheurs.
+                                  Il a été infecté par le virus du poker en regardant et en contrôlant les jeux. </p>
+
+                               <h3>5. Doyle Brunson </h3>
+                               <p>Le natif de Longworth, au Texas, a commencé à jouer illégalement à Fort Worth avant de se rendre dans les États voisins. 
+                                  Il était responsable de la rédaction de la Bible Super System Poker. 
+                                  Ce livre a révélé les secrets des professionnels de l'époque, au grand désarroi de ses collègues. </p>
+
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="section">
-                <div class="container-section aos-animate" data-aos="fade">
-                    <h2>En ce moment</h2>
-                    <h3>
-                        Retrouvez une sélection d'article d'actualité et de bonus inédits !
-                    </h3>
+
                     <div class="figure-background" data-aos="flip-right" data-aos-delay="250" data-aos-duration="1000">
                         <div class="col-4">
-                            <img src="../CasISEN/img/gamdom.png" alt="Logo" class="col-4-img">
+                            <img src="../../img/gamdom.png" alt="Logo" class="col-4-img">
                             <div class="casino-url">
                                 <a href="https://www.gamdom.com/" class="">
                                     <div>
@@ -107,75 +154,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="article-grid aos-animate" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
-                        <a href="../CasISEN/parts/articles/article1.php">
-                            <div class="article-background article-flex-items hvr-shrink">
-                                <div class="article-grid-gradient"></div>
-                                <img class="article-grid-img" src="../CasISEN/img/article1.jpg" alt="article-image" >
-                                <span>Le casino en ligne, des débuts à nos jours</span>
-                            </div>
-                        </a>
-                        <a href="#test">
-                            <div class="article-background article-flex-items hvr-shrink">
-                                <div class="article-grid-gradient"></div>
-                                <img class="article-grid-img" src="../CasISEN/img/article2.jpg" alt="article-image" >
-                                <span>Roshtein gagne 325 000 € sur Fruit Party !!</span>
-                            </div>
-                        </a>
-                        <a href="#test">
-                            <div class="article-background article-flex-items hvr-shrink">
-                                <div class="article-grid-gradient"></div>
-                                <img class="article-grid-img" src="../CasISEN/img/article3.jpg" alt="article-image" >
-                                <span>Comment bien gérer sa bankroll</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="article-pg aos-animate" data-aos="flip-right" data-aos-delay="850" data-aos-duration="1000">
-                        <a href="../CasISEN/parts/games/blackjack.php">
-                            <div class="article-background m-t20 article-flex-items-pg hvr-shrink">
-                                <div class="article-grid-gradient"></div>
-                                <img class="article-img" src="../CasISEN/img/blackjack.jpg" alt="blackjack-image" >
-                                <div class="article-pg-text">
-                                    <h2>BLACKJACK</h2> 
-                                    <span>
-                                        L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
-                                        Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
-                                        Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                    </span>
-                                    <p>Lire la suite</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="figure-background" data-aos="flip-right" data-aos-delay="1000" data-aos-duration="1000">
-                        <div class="col-4">
-                            <img src="../CasISEN/img/gamdom.png" alt="Logo" class="col-4-img">
-                            <div class="casino-url">
-                                <a href="https://www.gamdom.com/" class="">
-                                    <div>
-                                        <span class="url-title">Gamdom</span>
-                                    </div>
-                                    <span class="url-desc">gandom.com</span>
-                                </a>
-                            </div>
-                            <svg class="svg-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 70"><g fill="none" fill-rule="evenodd"><g mask="url(#ayb)"><path fill="#0EE07B" d="M26.253 37L26 44l-62 63h28.458L54 44v-7z"></path><path fill="#0EE07B" d="M26 40h27.646v-4.315l.354-.36V17.349c0-3.595-1.098-6.636-3.225-9.153L26 33.169V40z"></path><path fill="#0EE07B" d="M131.305-40.452L141-30.516V-66h-35.547l10.054 9.935-64.732 64.26-16.851 17.021L54.107 33"></path><path fill="#0A7843" d="M26 44h28V33H26z"></path></g></g></svg>
-                            <div class="figure-desc">
-                                <p>Un coffre <strong>GRATUIT</strong><br>et jusqu'à 50$ avec le code 
-                                <strong>"CASISEN"</strong></p>
-                            </div>
-                            <div class="button-resp">
-                                <div class="button-bonus">
-                                    <a href="">
-                                        Récupère <b>ton bonus</b>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </section>
-
-
         </article>
     </main>
 
@@ -183,7 +164,7 @@
         <div class="footer-grid" data-aos="fade" data-aos-duration="500">
             <div class="footer-grid-element">
                 <div class="footer-logo-title">
-                    <img class="footer-logo" src="../CasISEN/img/logo.png" alt="Logo">
+                    <img class="footer-logo" src="../../img/logo.png" alt="Logo">
                     <span class="w-800">CasISEN</span>
                 </div>
                 <div class="m-t10 m-b10">
@@ -212,10 +193,10 @@
             <div class="footer-grid-element">
                 <span class="w-800">Jeux populaires</span>
                 <div class="footer-url flex flex-dirC m-t20">
-                    <a href="../CasISEN/parts/games/poker.php">Poker</a>
-                    <a href="../CasISEN/parts/games/blackjack.php">BlackJack</a>
-                    <a href="#test">Roulette</a>
-                    <a href="#test">Crazy Time</a>
+                    <a href="index.php">Poker</a>
+                    <a href="blackjack.php">BlackJack</a>
+                    <a href="index.php">Roulette</a>
+                    <a href="index.php">Crazy Time</a>
                 </div>
             </div>
             <div class="footer-grid-element">
@@ -229,9 +210,9 @@
                 <span class="w-800">Liens rapides</span>
                 <div class="footer-url flex flex-dirC m-t20">
                     <a href="index.php">Accueil</a>
-                    <a href="#test">Devenir VIP</a>
-                    <a href="actualites.php">Actualités</a>
-                    <a href="#test">Casino</a>
+                    <a href="index.php">Devenir VIP</a>
+                    <a href="index.php">Actualités</a>
+                    <a href="index.php">Casino</a>
                     <a href="populargames.php">Jeux populaires</a>
                 </div>
             </div>
@@ -257,7 +238,6 @@
         </div>
     </footer>
 
-    <!--<script src="../CasISEN/js/scroll.js"></script>-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
 

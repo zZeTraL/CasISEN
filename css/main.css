@@ -87,6 +87,14 @@ main p {
     margin-top: 20px;
 }
 
+.h-100 {
+    height: 800px;
+}
+
+.h-150 {
+    height: 1500px;
+}
+
 .h-175 {
     height: 1750px;
 }
@@ -226,7 +234,8 @@ main p {
 }
 
 .button-bonus {
-    width: 100%;
+    display: flex;
+    align-items: center;
     height: 60px;
     border-radius: 10%/50%;
     border-style: none;
@@ -303,7 +312,7 @@ main p {
  /*
  *  GALAXY FOLD | IPHONE 5/SE
  */
- @media (max-width: 375px) { 
+ @media (max-width: 320px) { 
     main h1 {
         font-size: 1.1rem;
     } 
@@ -495,6 +504,117 @@ main p {
   *  PIXEL 2 | PIXEL 2XL | IPHONE 6/7/8 PLUS
   */
   @media (min-width: 411px) and (max-width: 450px) {
+    .figure-background {
+        height: 130px;
+        align-items: start;
+        justify-content: center;
+    }
+    .col-4 {
+        flex-direction: column;
+    }
+    .col-4 img {
+        height: 50px;
+        position: absolute;
+        margin-top: 10px;
+        transform: translateX(-130px);
+        z-index: 10;
+    }
+    .casino-url {
+        visibility: hidden;
+    }
+    .figure-desc {
+        position: absolute;
+        margin: 0;
+        z-index: 12;
+        font-size: 0.9rem;
+        transform: translateX(25px);
+    }
+    .figure-desc p {
+        font-size: 0.85rem;
+        transform: translateX(30px) translateY(20px);
+    }
+    .svg-green {
+        margin: 0;
+        position: absolute;
+        transform: translateX(50px);
+        opacity: 0.75;
+        height: 130px;
+        z-index: 2;
+    }
+    .button-bonus {
+        margin: 0;
+        height: 50px;
+    }
+    .button-bonus a {
+        font-size: 0.9rem;
+    }
+    .button-resp {
+        margin: 0;
+        transform: translateY(30px);
+        z-index: 13;
+    }
+}
+
+/*
+  *  IPAD
+  */
+  @media (min-width: 765px) and (max-width: 770px) {
+    .figure-background {
+        height: 130px;
+        align-items: start;
+        justify-content: center;
+    }
+    .col-4 {
+        flex-direction: column;
+    }
+    .col-4 img {
+        height: 50px;
+        position: absolute;
+        margin-top: 10px;
+        transform: translateX(-260px);
+        z-index: 10;
+    }
+    .casino-url {
+        visibility: visible;
+        transform: translateX(-150px) translateY(15px);
+    }
+    .figure-desc {
+        position: absolute;
+        margin: 0;
+        z-index: 12;
+        font-size: 0.9rem;
+        transform: translateX(25px);
+    }
+    .figure-desc p {
+        font-size: 1.1rem;
+        transform: translateX(125px) translateY(15px);
+    }
+    .svg-green {
+        margin: 0;
+        position: absolute;
+        transform: translateX(50px);
+        opacity: 0.75;
+        height: 130px;
+        z-index: 2;
+    }
+    .button-bonus {
+        margin: 0;
+        height: 50px;
+    }
+    .button-bonus a {
+        font-size: 0.9rem;
+    }
+    .button-resp {
+        margin: 0;
+        transform: translateY(30px);
+        z-index: 13;
+    }
+}
+
+ /*
+  *  SURFACE DUO
+  */
+  @media (min-width: 540px) and (max-width: 545px) {
     .figure-background {
         height: 130px;
         align-items: start;

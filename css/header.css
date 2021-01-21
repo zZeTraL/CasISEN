@@ -64,6 +64,23 @@ nav a:hover {
     
 }
 
+.header-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.header-text span {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-family: 'RobotoRegular', sans-serif;
+    opacity: 0.85;
+}
 
 /**************************************************************
  *  ANIMATION                                                 *
@@ -174,6 +191,12 @@ nav a:hover {
     .header-img {
         height: 700px;
     }
+    .header-text {
+        height: 100px;
+    }
+    .header-text span {
+        font-size: 1.25rem;
+    }
 }
 
 
@@ -187,6 +210,12 @@ nav a:hover {
     }
     .header-img {
         height: 800px;
+    }
+    .header-text {
+        height: 150px;
+    }
+    .header-text span {
+        font-size: 1.75rem;
     }
 }
 
@@ -202,6 +231,12 @@ nav a:hover {
     .header-img {
         height: 650px;
     }
+    .header-text {
+        height: 175px;
+    }
+    .header-text span {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -215,6 +250,12 @@ nav a:hover {
     }
     .header-img {
         height: 800px;
+    }
+    .header-text {
+        height: 200px;
+    }
+    .header-text span {
+        font-size: 2.25rem;
     }
 }
 
@@ -230,6 +271,12 @@ nav a:hover {
     .header-img {
         height: 800px;
     }
+    .header-text {
+        height: 200px;
+    }
+    .header-text span {
+        font-size: 2.25rem;
+    }
 }
 
 
@@ -244,6 +291,12 @@ nav a:hover {
     .header-img {
         height: 800px;
     }
+    .header-text {
+        height: 250px;
+    }
+    .header-text span {
+        font-size: 2.25rem;
+    }
 }
 
 
@@ -257,6 +310,12 @@ nav a:hover {
     }
     .header-img {
         height: 800px;
+    }
+    .header-text {
+        height: 275px;
+    }
+    .header-text span {
+        font-size: 2.25rem;
     }
 }
 

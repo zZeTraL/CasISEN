@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="../CasISEN/css/hover.css">
         <link rel="stylesheet" href="../CasISEN/css/main.css">
         <link rel="stylesheet" href="../CasISEN/css/footer.css">
-        <link rel="stylesheet" href="../CasISEN/css/populargames.css">
+        <link rel="stylesheet" href="../CasISEN/css/news.css">
 
         <!-- FONTAWESOME LIB -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,7 +22,7 @@
         <!-- BOOTSTRAP -->
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
-        <title>Cas'ISEN | Jeux populaires</title>
+        <title>Cas'ISEN | Actualités</title>
 </head>
 <body>
 
@@ -40,99 +40,63 @@
             <a class="hvr-grow" href="populargames.php"><i class="fa fa-fire" aria-hidden="true"></i>Jeux populaires</a>
         </nav>
         <div class="header-text">
-            <span>Jeux Populaires</span>  
+            <span>Actualités</span>  
         </div>
         <div class="icon-scroll"></div>
     </header>
 
     <main class="aos-animate">
         <article class="container-section">
-            <h1 data-aos-duration="500" data-aos="fade">Les jeux populaires au casino</h1>
-            <section class="section h-150">
-                <div class="article-pg-title m-b40 aos-animate" data-aos-duration="500" data-aos="fade">
-                    <h3>
-                        Le casino est bien sûr rempli de différents jeux qui sont plus ou moins connus.
-                        Que ce soit pour les jeux de tables, en physique ou en ligne nous allons vous présenter les plus populaires!
-                    </h3>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/blackjack.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/blackjack.jpg" alt="blackjack-image" >
-                            <div class="article-pg-text">
-                                <h2>BLACKJACK</h2> 
-                                <span>
-                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
-                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
-                                    Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                </span>
-                                <p>Lire la suite</p>
+            <h1 data-aos="fade" data-aos-duration="1000">Les actualités du moment</h1>
+            <section data-aos="fade" data-aos-duration="1000">
+                <h3>Retrouvez toutes les actualités du casino sur le site Cas'ISEN. Des plus grosses victoires du moment à nos conseils personnels
+                pour s'améliorer... cherchez votre bonheur et vous le trouverez.</h3>
+
+                <div class="article-grid m-t20 aos-animate" data-aos="flip-right" data-aos-delay="250" data-aos-duration="1000">
+                        <a href="../CasISEN/parts/articles/article1.php">
+                            <div class="article-background article-flex-items hvr-shrink">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article1.jpg" alt="article-image" >
+                                <span>Le casino en ligne, des débuts à nos jours</span>
                             </div>
+                        </a>
+                        <a href="#test">
+                            <div class="article-background article-flex-items hvr-shrink">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article2.jpg" alt="article-image" >
+                                <span>Roshtein gagne 325 000 € sur Fruit Party !!</span>
+                            </div>
+                        </a>
+                        <a href="#test">
+                            <div class="article-background article-flex-items hvr-shrink">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article3.jpg" alt="article-image" >
+                                <span>Comment bien gérer sa bankroll</span>
+                            </div>
+                        </a>
+                    </div>
+                
+                <div class="m-t20">
+                    <h3>Autres article(s) à ne pas manquer...</h3>
+                    <a href="#test">
+                        <div class="figure-background-news article-grid article-flex-items" data-aos="flip-right" data-aos-delay="250" data-aos-duration="1000">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article4.png" alt="article-image" >
+                                <span>Le BlackJack, les stratégies avec Bidule</span>
                         </div>
                     </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/poker.jpg" alt="poker-image" >
-                            <div class="article-pg-text">
-                                <h2>POKER</h2> 
-                                <span>
-                                    L'un des jeux de cartes les plus populaire, qui se divise sous différente forme.
-                                    Que ce soit en tournoi, en ligne ou sur table, le poker hold'em rassemble des millions de joueurs chaque année.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
+                    <a href="#test">
+                        <div class="figure-background-news article-grid article-flex-items" data-aos="flip-right" data-aos-delay="450" data-aos-duration="1000">
+                                <div class="article-grid-gradient"></div>
+                                <img class="article-grid-img" src="../CasISEN/img/article5.png" alt="article-image" >
+                                <span>La roulette, les techniques infaillibles pour gagner</span>
                         </div>
                     </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
+                    <a href="#test">
+                        <div class="figure-background-news article-grid article-flex-items" data-aos="flip-right" data-aos-delay="650" data-aos-duration="1000">
                             <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/roulette.png" alt="roulette-image" >
-                            <div class="article-pg-text">
-                                <h2>ROULETTE</h2> 
-                                <span>
-                                    Inspirée du mouvement éternel, la Roulette, inventée par Blaise Pascal, est l'un des jeux les plus populaires dans les casinos.
-                                    Très simple et accessible à tous, il vous invite à deviner le carré sur lequel la balle lancée dans le cylindre va atterrir.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/live.png" alt="machine-image" >
-                            <div class="article-pg-text">
-                                <h2>LIVE</h2> 
-                                <span>
-                                    Le live casino est nouveau dans ce monde. Il est apparu grace à l'arriver du casino en ligne.
-                                    Les jeux en live se concentre sur différente thématique pour divertir le plus grand nombre.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/machine-a-sous.png" alt="machine-image" >
-                            <div class="article-pg-text">
-                                <h2>MACHINE A SOUS</h2> 
-                                <span>
-                                    Les machines à sous sont surement les jeux qui ont fait naître le casino.
-                                    Elles sont déclinées sous différente façon, et tous avec des mécaniques différentes.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
+                            <img class="article-grid-img" src="../CasISEN/img/article6.jpg" alt="article-image" >
+                            <span>Le Crazy Time, la nouvelle mode du casino</span>
                         </div>
                     </a>
                 </div>

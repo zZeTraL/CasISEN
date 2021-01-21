@@ -6,12 +6,12 @@
         <meta name="description" content="Cas'ISEN est un site de partage des meilleurs plans et bonus du moment mais pas que... Retrouvez également toute l'actualité mondiale du casino en ligne !">
         
         <!-- CSS -->
-        <link rel="stylesheet" href="../CasISEN/css/body.css">
-        <link rel="stylesheet" href="../CasISEN/css/header.css">
-        <link rel="stylesheet" href="../CasISEN/css/hover.css">
-        <link rel="stylesheet" href="../CasISEN/css/main.css">
-        <link rel="stylesheet" href="../CasISEN/css/footer.css">
-        <link rel="stylesheet" href="../CasISEN/css/populargames.css">
+        <link rel="stylesheet" href="../../css/body.css">
+        <link rel="stylesheet" href="../../css/header.css">
+        <link rel="stylesheet" href="../../css/hover.css">
+        <link rel="stylesheet" href="../../css/main.css">
+        <link rel="stylesheet" href="../../css/footer.css">
+        <link rel="stylesheet" href="../../css/news.css">
 
         <!-- FONTAWESOME LIB -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,120 +22,83 @@
         <!-- BOOTSTRAP -->
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
-        <title>Cas'ISEN | Jeux populaires</title>
+        <title>Cas'ISEN | Actualités</title>
 </head>
 <body>
 
-
     <header class="header-container header-img gradient">
         <nav class="nav-container">
-            <a class="flip-animation" href="index.php">
-                <img src="../CasISEN/img/logo.png" alt="Logo" class="nav-logo">
+            <a class="flip-animation" href="../../index.php">
+                <img src="../../img/logo.png" alt="Logo" class="nav-logo">
             </a>
             <div class="become-vip-button hvr-pulse-grow">
                 <a href="#test"><i class="fa fa-diamond" aria-hidden="true"></i>Devenir VIP</a>
             </div>
-            <a class="hvr-grow" href="actualites.php"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Actualités</a>
-            <a class="hvr-grow" href="casino.php"><i class="fa fa-money" aria-hidden="true"></i>Casino</a>
-            <a class="hvr-grow" href="populargames.php"><i class="fa fa-fire" aria-hidden="true"></i>Jeux populaires</a>
+            <a class="hvr-grow" href="../../actualites.php"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Actualités</a>
+            <a class="hvr-grow" href="../../casino.php"><i class="fa fa-money" aria-hidden="true"></i>Casino</a>
+            <a class="hvr-grow" href="../../populargames.php"><i class="fa fa-fire" aria-hidden="true"></i>Jeux populaires</a>
         </nav>
         <div class="header-text">
-            <span>Jeux Populaires</span>  
+            <span>Article</span>  
         </div>
         <div class="icon-scroll"></div>
     </header>
 
     <main class="aos-animate">
-        <article class="container-section">
-            <h1 data-aos-duration="500" data-aos="fade">Les jeux populaires au casino</h1>
-            <section class="section h-150">
-                <div class="article-pg-title m-b40 aos-animate" data-aos-duration="500" data-aos="fade">
-                    <h3>
-                        Le casino est bien sûr rempli de différents jeux qui sont plus ou moins connus.
-                        Que ce soit pour les jeux de tables, en physique ou en ligne nous allons vous présenter les plus populaires!
-                    </h3>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/blackjack.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/blackjack.jpg" alt="blackjack-image" >
-                            <div class="article-pg-text">
-                                <h2>BLACKJACK</h2> 
-                                <span>
-                                    L'incontournable jeu du casino, nommé le BlackJack est devenu célebre au XVIIème siécle grace à Madame du Barry et ensuite Napoléon.
-                                    Après la Grande Révolution, le blackjack a été exporté dans tout l'océan Atlantique. 
-                                    Aux États-Unis, il est entré dans le cercle du jeu où des bonus verront le jour pour fidéliser les joueurs.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/poker.jpg" alt="poker-image" >
-                            <div class="article-pg-text">
-                                <h2>POKER</h2> 
-                                <span>
-                                    L'un des jeux de cartes les plus populaire, qui se divise sous différente forme.
-                                    Que ce soit en tournoi, en ligne ou sur table, le poker hold'em rassemble des millions de joueurs chaque année.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/roulette.png" alt="roulette-image" >
-                            <div class="article-pg-text">
-                                <h2>ROULETTE</h2> 
-                                <span>
-                                    Inspirée du mouvement éternel, la Roulette, inventée par Blaise Pascal, est l'un des jeux les plus populaires dans les casinos.
-                                    Très simple et accessible à tous, il vous invite à deviner le carré sur lequel la balle lancée dans le cylindre va atterrir.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/live.png" alt="machine-image" >
-                            <div class="article-pg-text">
-                                <h2>LIVE</h2> 
-                                <span>
-                                    Le live casino est nouveau dans ce monde. Il est apparu grace à l'arriver du casino en ligne.
-                                    Les jeux en live se concentre sur différente thématique pour divertir le plus grand nombre.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="article-pg m-b40 aos-animate" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                    <a href="../CasISEN/parts/games/poker.php">
-                        <div class="article-background article-flex-items-pg hvr-shrink">
-                            <div class="article-grid-gradient"></div>
-                            <img class="article-img" src="../CasISEN/img/machine-a-sous.png" alt="machine-image" >
-                            <div class="article-pg-text">
-                                <h2>MACHINE A SOUS</h2> 
-                                <span>
-                                    Les machines à sous sont surement les jeux qui ont fait naître le casino.
-                                    Elles sont déclinées sous différente façon, et tous avec des mécaniques différentes.
-                                </span>
-                                <p>Lire la suite</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+        <article class="h-2500 container-section" >
+            <h1 data-aos="fade" data-aos-duration="1000"> Le casino en ligne, des débuts à nos jours</h1>
+            <section data-aos="fade" data-aos-duration="1000">
+                <div class="news-article">
+                    <p>Des casinos terrestres aux casinos en ligne, il n'y a qu'une étape qui a été rapidement franchie avec l'avènement d'Internet. 
+                        Au cours de la dernière décennie, les casinos en ligne sont devenus une force motrice derrière l'industrie du jeu. Dans cet article, 
+                        Cas'ISEN vous invite à suivre l'histoire des casinos en ligne depuis sa création jusqu'à son explosion aujourd'hui. </p>
+                    <br><hr><br>
+                    <h2>La genèse des casinos en ligne</h2>
+                    <p>Il faut remonter aux années 1970 pour retrouver une trace d'ancêtres des casinos en ligne avec le premier logiciel de jeu, 
+                    avec notamment un aperçu du blackjack en ligne. Au contraire, le jeu semblait une utopie jusqu'à la fin des années 1990. 
+                    Cependant, le développement d'Internet a ouvert de nouvelles possibilités en rassemblant des dizaines de milliers d'utilisateurs 
+                    en un seul endroit.</p>
+                    <br>
+                    <p>Afin de certifier la fiabilité et la sécurité des futurs casinos en ligne, des licences de jeux se sont développées. 
+                    Le Free Trade and Processing Zone Act du petit État d'Antigua-et-Barbuda a été l'un des pionniers du genre en 1994. 
+                    C'est la loi fondatrice du jeu en ligne. Des commissions de jeux ont alors été mises en place dans le monde entier pour réguler un marché émergent. </p>
+                    <br>
+                    <img src="../../img/oldblackjack.png" alt="Ancien Blackjack">
+                    <br>
+                    <p>La plus célèbre des licences de jeu est actuellement délivrée par le gouvernement de Curaçao. Plusieurs critères doivent être remplis 
+                        pour utiliser cette ressource, notamment pour la sécurité des données et des transactions financières. En 1994, Microgaming sur l'île 
+                        de Man a été l'une des premières sociétés à développer des logiciels de casino en ligne, tandis que Planetpoker est devenu la première 
+                        salle de poker en ligne en 1998. </p>
+                    <br><hr><br>
+                    <h2>La démocratisation des casinos en ligne</h2>
+                    <p>S'il existe des centaines de casinos en ligne depuis la fin de 1998, les années 2000 seront un tournant dans l'industrie du jeu. 
+                        Les licences se multiplient, les casinos en ligne aussi et les paris générés atteignent très rapidement plusieurs milliards de 
+                        dollars. L'introduction en bourse de plusieurs réseaux, comme partygaming ou 888 en 2005, marquera l'apogée des casinos en ligne. 
+                        Avant de connaître une légère reprise en raison des différentes lois sur les jeux d'argent en Europe et aux États-Unis. </p>
+                    <br>
+                    <p>Après le fameux Black Friday de 2011, qui a vu la fermeture aux Etats-Unis des plus célèbres salles de poker Pokerstars et Full Tilt, 
+                        le marché est en crise. Il faudra attendre les années suivantes pour voir un nouvel essor des casinos en ligne, porté par les nouvelles 
+                        technologies et plus particulièrement les applications mobiles. L'implémentation du jeu sur mobile et tablette et la création de sites 
+                        responsive avec une version de navigateur web bien adaptée au format mobile ont changé la donne. De nos jours, les jeux mobiles sont 
+                        répandus et se développent de plus en plus chaque jour. </p>
+                    <img src="../../img/Tortuga.png" alt="Tortuga">
+                    <br>
+                    <p>Evidemment cette démocratisation est allée de pair avec quelques abus et nous ne pouvons que vous recommander de connaître la réputation du 
+                        site avant de vous lancer dans la création d'un compte ou d'effectuer un dépôt financier. C'est aussi l'objectif de Cas'ISEN qui vous oriente 
+                        vers les meilleurs casinos où jouer.</p>
+                    <br><hr><br>
+                    <h2>L'explosion sur Twitch</h2>
+                    <p>L'explosion et la démocratisation des casinos en ligne sont encore récentes, notamment sur le marché francophone. La 
+                        dernière décennie, et même les dernières années, ont apporté de profonds changements. Des sites très basiques, nous 
+                        sommes passés en quelques années à des joyaux technologiques qui ont gagné en popularité, bien servis par des streamers 
+                        sur la plateforme Twitch comme Bidule, le numéro un français de la diffusion de jeux de casino en ligne en direct. </p>
+                    <img src="../../img/bidule.jpg" alt="Stream de Bidule">
+                    <p>La pandémie mondiale de 2020 a apporté un autre boom dans l'industrie du jeu en ligne et cela a été ressenti par le public 
+                        dans la catégorie Slots (machines à sous) de la plateforme de streaming n°1, Twitch. Par conséquent, Bidule, TeufeurS et d'autres ont connu 
+                        une croissance exponentielle avec un nombre d'audience atteignant plus de 10 000 spectateurs pour Bidule. Alors que l'avenir 
+                        semble prometteur pour la croissance des casinos en ligne en Europe et dans le monde, il reste beaucoup à faire : presqu'une 
+                        centaine pays ont légalisé le jeu en ligne au niveau international. </p>
+                </div>    
             </section>
         </article>
     </main>
@@ -144,7 +107,7 @@
         <div class="footer-grid" data-aos="fade" data-aos-duration="500">
             <div class="footer-grid-element">
                 <div class="footer-logo-title">
-                    <img class="footer-logo" src="../CasISEN/img/logo.png" alt="Logo">
+                    <img class="footer-logo" src="../../img/logo.png" alt="Logo">
                     <span class="w-800">CasISEN</span>
                 </div>
                 <div class="m-t10 m-b10">
@@ -173,10 +136,10 @@
             <div class="footer-grid-element">
                 <span class="w-800">Jeux populaires</span>
                 <div class="footer-url flex flex-dirC m-t20">
-                    <a href="../CasISEN/parts/games/poker.php">Poker</a>
-                    <a href="../CasISEN/parts/games/blackjack.php">BlackJack</a>
-                    <a href="#test">Roulette</a>
-                    <a href="#test">Crazy Time</a>
+                    <a href="index.php">Poker</a>
+                    <a href="blackjack.php">BlackJack</a>
+                    <a href="index.php">Roulette</a>
+                    <a href="index.php">Crazy Time</a>
                 </div>
             </div>
             <div class="footer-grid-element">
@@ -190,9 +153,9 @@
                 <span class="w-800">Liens rapides</span>
                 <div class="footer-url flex flex-dirC m-t20">
                     <a href="index.php">Accueil</a>
-                    <a href="#test">Devenir VIP</a>
-                    <a href="actualites.php">Actualités</a>
-                    <a href="#test">Casino</a>
+                    <a href="index.php">Devenir VIP</a>
+                    <a href="index.php">Actualités</a>
+                    <a href="index.php">Casino</a>
                     <a href="populargames.php">Jeux populaires</a>
                 </div>
             </div>

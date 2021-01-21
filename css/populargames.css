@@ -9,6 +9,8 @@
 }
 
 .article-pg-text {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     color: white;
     padding: 1rem 2rem 1rem 2rem;
@@ -133,6 +135,36 @@
     margin-top: 40px;
 }
 
+/**************************************************************
+ * POKER ARTICLE                                              *
+ **************************************************************/
+
+.populargames-article-rules ul {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1,2rem;
+    font-family: "RobotoRegular", sans-serif;
+}
+
+.populargames-article-rules h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "RobotoBold", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+.populargames-article-strat h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "RobotoBold", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 10px; 
+    margin-top: 15px;
+}
 
 /**************************************************************
  * RESPONSIVE                                                 *
@@ -146,14 +178,14 @@
         font-size: 1.5em;
     }
     .article-pg span {
-        line-height: 2.5px;
-        font-size: 0.7rem;
+        line-height: 15px;
+        font-size: 0.75rem;
     }
     .article-pg-text p {
         visibility: hidden;
     }
     .article-pg-text {
-        max-height: 12.5rem;
+        max-height: 10.75rem;
         overflow-y: hidden;
     }
     .populargames-article-img {
@@ -166,8 +198,8 @@
  */
  @media (min-width: 320px) and (max-width: 380px) {
     .article-pg span {
-        line-height: 5px;
-        font-size: 0.75rem;
+        line-height: 20px;
+        font-size: 0.85rem;
     }
     .article-pg-text p {
         visibility: hidden;
@@ -175,6 +207,11 @@
     .populargames-article-img {
         width: 100%;
     }
+    .populargames-article-strat h2 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    
 }
 
  /*
@@ -182,8 +219,8 @@
  */
  @media (min-width: 410px) and (max-width: 500px) {
     .article-pg span {
-        line-height: 5px;
-        font-size: 0.75rem;
+        line-height: 22.5px;
+        font-size: 0.9rem;
     }
     .article-pg-text p {
         visibility: hidden;
@@ -194,11 +231,11 @@
 }
 
  /*
- *  PIXEL 2 | PIXEL 2XL | IPHONE 6/7/8 PLUS
+ *  
  */
  @media (min-width: 540px) and (max-width: 580px) {
     .article-pg span {
-        line-height: 5px;
+        line-height: 20px;
         font-size: 0.85rem;
     }
     .article-pg-text p {
