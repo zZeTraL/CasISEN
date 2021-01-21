@@ -119,7 +119,7 @@
                     </div>
                     <div class="article-pg aos-animate" data-aos="flip-right" data-aos-delay="850" data-aos-duration="1000">
                         <a href="../CasISEN/blackjack.php">
-                            <div class="article-background article-flex-items-pg hvr-shrink">
+                            <div class="article-background m-t20 article-flex-items-pg hvr-shrink">
                                 <div class="article-grid-gradient"></div>
                                 <img class="article-img" src="../CasISEN/img/blackjack.jpg" alt="blackjack-image" >
                                 <div class="article-pg-text">
@@ -158,9 +158,6 @@
                                 </button>
                             </div>
                         </div>
-                    </div>
-                    <div style="height: 350px;">
-                        fgf
                     </div>
                 </div>
             </section>

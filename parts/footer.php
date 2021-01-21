@@ -32,7 +32,7 @@
             <span class="w-800">Jeux populaires</span>
             <div class="footer-url flex flex-dirC m-t20">
                 <a href="index.php">Poker</a>
-                <a href="index.php">BlackJack</a>
+                <a href="blackjack.php">BlackJack</a>
                 <a href="index.php">Roulette</a>
                 <a href="index.php">Crazy Time</a>
             </div>
@@ -51,7 +51,7 @@
                 <a href="index.php">Devenir VIP</a>
                 <a href="index.php">Actualités</a>
                 <a href="index.php">Casino</a>
-                <a href="index.php">Jeux populaires</a>
+                <a href="populargames.php">Jeux populaires</a>
             </div>
         </div>
     </div>

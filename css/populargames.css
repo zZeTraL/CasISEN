@@ -139,6 +139,29 @@
  **************************************************************/
 
  /*
+ *  GALAXY FOLD
+ */
+ @media (min-width: 280px) and (max-width: 300px) {
+    .article-pg h2 {
+        font-size: 1.5em;
+    }
+    .article-pg span {
+        line-height: 2.5px;
+        font-size: 0.7rem;
+    }
+    .article-pg-text p {
+        visibility: hidden;
+    }
+    .article-pg-text {
+        max-height: 12.5rem;
+        overflow-y: hidden;
+    }
+    .populargames-article-img {
+        width: 100%;
+    }
+}
+
+ /*
  *  IPHONE X | GALAXY S5 | MOTO G4 | IPHONE 6/7/8 | IPAD PRO
  */
  @media (min-width: 320px) and (max-width: 380px) {
