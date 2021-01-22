@@ -70,8 +70,8 @@
                         </div>
                         <div class="ptsforts-col-element aos-animate" data-aos="zoom-in">
                             <img src="../CasISEN/img/clock.svg" alt="Logo" class="col-img">
-                            <h4>JE SAIS PAS</h4>
-                            <p>Retrouvez chaque jour des nouvelles de l'actualité mondiale autour des casinos, ne loupez aucune information !</p>
+                            <h4>Rapidité</h4>
+                            <p>Besoin d'avis, notre équipe d'expert vous répondra avec rapidité !</p>
                         </div>
                     </div>
                 </div>
